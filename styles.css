@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f8f0;
+    color: #3b783b;
+  }
+  
+  .container {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #c7f9c9;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  h1 {
+    text-align: center;
+  }
+  
+  label {
+    font-weight: bold;
+  }
+  
+  select {
+    margin-bottom: 10px;
+  }
+  
+  .output {
+    border: 1px solid #3b783b;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: #f0fff0;
+  }
+  
+  canvas {
+    display: block;
+    margin: 10px auto;
+  }
+  
+  

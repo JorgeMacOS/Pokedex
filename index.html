@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pokédex</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Pokédex</h1>
+    <label for="pokemonSelect">Selecciona un Pokémon:</label>
+    <select id="pokemonSelect"></select>
+    <div class="output" id="pokemonInfo">
+      <p><strong>Nombre:</strong> <span id="name"></span></p>
+      <img id="image" src="" alt="Pokémon Image">
+      <p id="type"></p>
+      <p><strong>Habilidades:</strong></p>
+      <ul id="skills"></ul>
+      <p><strong>Estadísticas:</strong></p>
+      <ul id="stats"></ul>
+      <canvas id="statsChart" width="300" height="200"></canvas>
+    </div>
+    <div>
+      <label for="searchInput">Buscar Pokémon:</label>
+      <input type="text" id="searchInput" placeholder="Escribe el nombre o número">
+    </div>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@4.3.0/dist/chart.umd.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
+
+
